@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Profile</title>
+    <link rel="stylesheet" href="./css/form.css">
+</head>
+<body>
+    <h1>Add User Profile</h1>
+    <form id="profileForm">
+        <table>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="photo">Photo(URL):</label></td>
+                <td><input type="text" id="photo" name="photo" required></td>
+            </tr>
+            <tr>
+                <td><label for="description">Description:</label></td>
+                <td><textarea name="description" id="description" name="description"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="themeColor">Theme Color:</label></td>
+                <td><input type="color" id="themeColor" name="themeColor" required></td>
+            </tr>
+        </table>
+        <button type="submit">Submit</button>
+    </form>
+
+    <a href="profile.html">Review</a>
+
+    <script src="javascript/form.js"></script>
+</body>
+</html>

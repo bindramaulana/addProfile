@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>User List</title>
+  <link rel="stylesheet" href="css/profile.css" />
+</head>
+<body>
+  <h1>User List</h1>
+
+  <!-- Tombol toggle view -->
+  <div class="view-toggle">
+    <button id="cardViewBtn">Card View</button>
+    <button id="listViewBtn">List View</button>
+  </div>
+
+  <!-- Pesan jika belum ada data -->
+  <p id="emptyMessage">Belum ada data yang masuk.</p>
+
+  <!-- Tempat menampilkan data -->
+  <div id="profileContainer" class="card-view"></div>
+
+  <div class="addProfile">
+      <a href="index.html">Add New Profile</a>
+  </div>
+
+  <script src="javascript/profile.js"></script>
+</body>
+</html>
